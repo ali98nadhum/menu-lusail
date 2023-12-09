@@ -8,7 +8,7 @@ import CardDeteils from "./components/CardDeteils/CardDeteils"
 
 
 function App() {
-  const [data, SetData] = useState(item)
+  const [data, ] = useState(item)
   return (
     <div>
       <BrowserRouter>
