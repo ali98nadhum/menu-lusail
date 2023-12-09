@@ -1,4 +1,6 @@
 
+
+
 main {
   display: flex;
   justify-content: center;
@@ -41,6 +43,10 @@ main .content .footer p {
     width: 200px;
     height: 200px;
     margin-left: 10px;
+  }
+
+  main{
+    height: 700px;
   }
   
   main .content .cover img{
