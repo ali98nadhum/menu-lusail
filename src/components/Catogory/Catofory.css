@@ -6,6 +6,22 @@
   margin-bottom: 60px;
 }
 
+@media (max-width: 1200px) {
+  .grid {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1000px){
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 20px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -15,9 +31,4 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .grid {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
+

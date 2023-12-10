@@ -1,19 +1,11 @@
 
-import img1 from './assets/fast-food.png';
-import img2 from './assets/waffi.png';
-import img3 from './assets/crepe.jpg';
-import img4 from './assets/pan-cake.png';
-import img5 from './assets/hoka.jpg';
-import img6 from './assets/juice.png';
-import img7 from './assets/hot-drinks.png';
-import img8 from './assets/moheto.png';
-import img9 from './assets/ice-coffee.avif';
+
 
 export const item = [
   {
     id: 1,
     title: "الوجبات السريعه",
-    img: img1,
+    img: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXwU9PtD5mLbHavYV6q_Sd3wO654XCsO_ldB627Ie71CZjHmxr",
     info: {
       item1: {
         price: {
@@ -54,7 +46,7 @@ export const item = [
   {
     id: 2,
     title: "وافل",
-    img: img2,
+    img: "https://static.vecteezy.com/system/resources/previews/027/679/510/original/belgian-waffles-with-chocolate-ai-generated-png.png",
     info: {
       item1: {
         price: {
@@ -79,7 +71,7 @@ export const item = [
   {
     id: 3,
     title: "كريبات",
-    img: img3,
+    img: "https://pghcrepes.com/assets/images/slider/carousel4.jpg",
     info: {
       item1: {
         price: {
@@ -102,7 +94,7 @@ export const item = [
   {
     id: 4,
     title: "بان كيك",
-    img: img4,
+    img: "https://img.freepik.com/premium-vector/delicious-fluffy-pancake-with-honey-butter-toppings-white-background_281653-999.jpg",
     info: {
       item1: {
         price: {
@@ -131,7 +123,7 @@ export const item = [
   {
     id: 5,
     title: "نراكيل",
-    img: img5,
+    img: "https://img.freepik.com/premium-vector/blue-hookah-cartoon-style_319667-12.jpg",
     info: {
       item1: {
         price: {
@@ -152,7 +144,7 @@ export const item = [
   {
     id: 6,
     title: "العصائر",
-    img: img6,
+    img: "https://i.pinimg.com/originals/2c/f0/74/2cf07472689f3297c7da872b0a04ab9e.png",
     info: {
       item1: {
         price: {
@@ -227,7 +219,7 @@ export const item = [
   {
     id: 7,
     title: "مشروبات ساخنه",
-    img: img7,
+    img: "https://parspng.com/wp-content/uploads/2022/12/coffeepng.parspng.com-15.png",
     info: {
       item1: {
         price: {
@@ -260,7 +252,7 @@ export const item = [
   {
     id: 8,
     title: "الموهيتو",
-    img: img8,
+    img: "https://static.vecteezy.com/system/resources/previews/024/282/480/original/mojito-cocktail-watercolor-clipart-ai-generated-free-png.png",
     info: {
       item1: {
         price: {
@@ -295,7 +287,7 @@ export const item = [
   {
     id: 9,
     title: "ايس كوفي",
-    img: img9,
+    img: "https://redbarndonuts.com/cdn/shop/products/Iced-Coffee.png?v=1637559300",
     info: {
       item1: {
         price: {
